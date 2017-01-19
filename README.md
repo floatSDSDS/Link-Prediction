@@ -22,6 +22,6 @@
   
 - and some degree featrues depends on {igraph}
 
-- I build a structure list, have to first load a mx3 dataframe with the cols "from, to, weight" named temp at first, and by f_preprocess in order.
+- I build a structure list, you have to first load a network (mx3 dataframe) with the cols "from, to, weight", and pass it to f_preprocess at first. otherwise it will report errors when using f_addxx.
 
 - well actually nothing is ready for any other people to use it yet. not bug free and no docs, if there is any problem please contact.
